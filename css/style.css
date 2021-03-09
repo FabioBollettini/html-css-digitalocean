@@ -1,0 +1,58 @@
+/* GENERAL */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    font-weight: 700;
+}
+
+/* HEADER */
+.logo img{
+    width: 200px;
+}
+
+.hamburger{
+    font-size: 25px;
+    color: #2485fd;
+}
+
+/* MAIN */
+/* jumbotron */
+.-jumbotron{
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: contain;
+}
+
+.-jumbotron > p{
+    color:#bbcdff;
+}
+
+/*jumbotron form */
+.form {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.-jumbotron .form button.btn-primary{
+    background-color: #2485fd;
+    border: none;
+}
+
+.-jumbotron .form button.btn-default{
+    position: relative;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(187, 187, 187);
+}
+
+.-jumbotron .form button.btn-default img{
+    max-width: 20px;
+    position: absolute;
+    left: 10px;
+}
+
+.tos{
+    font-weight: 400;
+    line-height: 3;
+}
