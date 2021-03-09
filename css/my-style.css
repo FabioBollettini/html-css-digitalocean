@@ -519,6 +519,10 @@ PADDING
 }
 
 /* padding left */
+.pl-0{
+    padding-left: 0;
+}
+
 .pl-10{
     padding-left: 10px;
 }
