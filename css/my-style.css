@@ -468,6 +468,10 @@ PADDING
 }
 
 /* padding top-bot */
+.py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 .py-10{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -605,6 +609,11 @@ PADDING
 }
 
 /* padding right and left */
+.px-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .px-10{
     padding-left: 10px;
     padding-right: 10px;
