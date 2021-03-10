@@ -39,16 +39,18 @@
         <section class="-jumbotron white pt-50 pb-50">
             <div class="container">
                 <div class="col-xs-12">
-                    <h1>
-                        The simplest cloud platform for developers & teams
-                    </h1>
-                    <p class="sottotitolo">
-                        Deploy, manage, and scale clod application faster and more efficiently on DigitalOcean.
-                        We make managing infrastructure easy for teams and businesses, wheter you're running one virtual machine or ten thousand.
-                    </p>
-                    
+                    <div class="col-sm-7">
+                        <h1>
+                            The simplest cloud platform for developers & teams
+                        </h1>
+                        <p class="sottotitolo">
+                            Deploy, manage, and scale clod application faster and more efficiently on DigitalOcean.
+                            We make managing infrastructure easy for teams and businesses, wheter you're running one virtual machine or ten thousand.
+                        </p>
+                        
+                    </div>
                     <!-- form -->
-                    <div class="form col-xs-12 black ta-center">
+                    <div class="form col-xs-12 col-sm-5 black ta-center">
                         <h3 class="pt-20 pb-10">Deploy your app in seconds. <br>
                             <a href="#">Get started now.</a> 
                         </h3>
@@ -62,7 +64,7 @@
                             <button type="button" class="btn btn-primary        col-xs-12">
                                 Create your account
                             </button>
-                            <button type="button" class="btn btn-default col-xs-12 mt-10">
+                            <button type="button" class="btn btn-default col-xs-12 mt-10 mb-10">
                                 <img src="./img/google-icon.png" alt="logo g">
                                 Sign up with Google
                             </button> 
@@ -81,22 +83,22 @@
                 <p class="ta-center grey">INNOVATIVE BUSINESS TRUST DIGITALOCEAN</p>
                 <!-- logos -->
                 <ul class="list-inline col-xs-12">
-                    <li>
+                    <li class="col-xs-6 col-sm-2">
                         <a href="#"><img src="./img/docker.png" alt="docker logo"></a>
                     </li>
-                    <li>
+                    <li class="col-xs-6 col-sm-2">
                         <a href="#"><img src="./img/gitlab.png" alt="gitlab logo"></a>
                     </li>
-                    <li>
+                    <li class="col-xs-6 col-sm-2">
                         <a href="#"><img src="./img/slack.png" alt="slack logo"></a>
                     </li>
-                    <li>
+                    <li class="col-xs-6 col-sm-2">
                         <a href="#"><img src="./img/hashicorp.png" alt="hashicorp logo"></a>
                     </li>
-                    <li>
+                    <li class="col-xs-6 col-sm-2">
                         <a href="#"><img src="./img/hashicorp.png" alt="hashicorp logo"></a>
                     </li>
-                    <li>
+                    <li class="col-xs-6 col-sm-2">
                         <a href="#"><img src="./img/splunk.png" alt="splunk logo"></a>
                     </li>
                 </ul>
@@ -105,54 +107,67 @@
 
         <!-- deploy and scale seamlessly -->
         <section class="deploy pt-50 pb-50">
-            <div class="container ta-center">
+            <div class="container ta-center grey">
                 <h2>Deploy and scale seamlessly</h2>
                 <p class="sottotitolo grey">
                     Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning worloads, hosted services, client websites, or CI/CD environments.
                 </p>
-                <ul class="ta-left mt-30 pl-0 grey">
-                    <li class="pl-10">
-                        Deploy
-                    </li>
-                    <li class="pl-10">
-                        Manage
-                    </li>
-                    <li class="pl-10">
-                        Secure
-                    </li>
-                    <li class="pl-10">
-                        Scale
-                    </li>
-                    <li class="pl-10">
-                        Monitor
-                    </li>
-                </ul>
-            </div>
+                <div class="col-sm-1 col-sm-offset-1">
+                    <ul class="ta-left mt-30 pl-0 grey">
+                        <li class="pl-10">
+                            Deploy
+                        </li>
+                        <li class="pl-10">
+                            Manage
+                        </li>
+                        <li class="pl-10">
+                            Secure
+                        </li>
+                        <li class="pl-10">
+                            Scale
+                        </li>
+                        <li class="pl-10">
+                            Monitor
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="container grey">
-                <img src="./img/cluster-deploy.svg" alt="img">
-                <h4>Cluster deployments</h4>
-                <p>
-                   Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
-                </p>
-
-                <img src="./img/optimized-compute.svg" alt="img">
-                <h4>Optimized compute types</h4>
-                <p>
-                    Get the compute resources you need with Standard or Optimized Droplets.
-                </p>
-
-                <img src="./img/one-click.svg" alt="img">
-                <h4>One-click apps</h4>
-                <p>
-                    Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
-                </p>
-
-                <img src="./img/global.svg" alt="img">
-                <h4>Global availability</h4>
-                <p>
-                    Deploy to any of our data center regions around thee world.
-                </p>
+                <div class="col-sm-9 col-sm-offset-1 ta-left">
+                    <div class="row col-sm-12">
+                        <div class="row col-sm-6 mt-40">
+                            <img src="./img/cluster-deploy.svg" alt="img">
+                            <h4>Cluster deployments</h4>
+                            <p>
+                               Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
+                            </p>
+                        </div>
+                        
+                        <div class="row col-sm-5 col-sm-offset-1 mt-40">
+                            <img src="./img/optimized-compute.svg" alt="img">
+                            <h4>Optimized compute types</h4>
+                            <p>
+                                Get the compute resources you need with Standard or Optimized Droplets.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="row col-sm-12">
+                        <div class="row col-sm-6 mt-40">
+                            <img src="./img/one-click.svg" alt="img">
+                            <h4>One-click apps</h4>
+                            <p>
+                                Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
+                            </p>
+                        </div>
+        
+                        <div class="row col-sm-5 col-sm-offset-1 mt-40">
+                            <img src="./img/global.svg" alt="img">
+                            <h4>Global availability</h4>
+                            <p>
+                                Deploy to any of our data center regions around thee world.
+                            </p>
+                        </div>
+                    </div>
             </div>
         </section>
 
@@ -190,31 +205,37 @@
         <section class="features pt-50 pb-50">
             <div class="container grey">
                 <h2 class="ta-center mb-40">The features your business needs</h2>
-                <img src="./img/pred-pricing.svg" alt="img">
-                <h4>Predictable pricing</h4>
-                <p>
-                   Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.
-                </p>
-                <div class="mb-20">
-                    <a href="#">Pricing ></a>
+                <div class="col-sm-4">
+                    <img src="./img/pred-pricing.svg" alt="img">
+                    <h4>Predictable pricing</h4>
+                    <p>
+                       Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.
+                    </p>
+                    <div class="mb-20">
+                        <a href="#">Pricing ></a>
+                    </div>
                 </div>
 
-                <img src="./img/world-class.svg" alt="img">
-                <h4>World-class service</h4>
-                <p>
-                    Free round-the-clock technical support for all customers. You'll fell the love.
-                </p>
-                <div class="mb-20">
-                    <a href="#">Support ></a>
+                <div class="col-sm-4">
+                    <img src="./img/world-class.svg" alt="img">
+                    <h4>World-class service</h4>
+                    <p>
+                        Free round-the-clock technical support for all customers. You'll fell the love.
+                    </p>
+                    <div class="mb-20">
+                        <a href="#">Support ></a>
+                    </div>
                 </div>
 
-                <img src="./img/one-click.svg" alt="img">
-                <h4>Reliable platform</h4>
-                <p>
-                    More than 100,000 developers teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
-                </p>
-                <div class="mb-20">
-                    <a href="#">Security ></a>
+                <div class="col-sm-4">
+                    <img src="./img/one-click.svg" alt="img">
+                    <h4>Reliable platform</h4>
+                    <p>
+                        More than 100,000 developers teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
+                    </p>
+                    <div class="mb-20">
+                        <a href="#">Security ></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -375,7 +396,7 @@
          <section class="slides py-50">
             <div class="container ta-center">
                 <h2>Development teams love DigitalOcean</h2>
-                <div class="box col-xs-10 col-xs-offset-1 mt-50">
+                <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3   mt-50">
                     <img class="mt-50 mb-20" src="./img/rockerbox-logo.png" alt="slide img">
                     <p class="sottotitolo grey">
                         "We have been able to make scaling the technical infrastructure of our business cost effective and efficient."
@@ -421,31 +442,31 @@
     <!-- footer -->
     <footer class="py-50 grey">
         <div class="container">
-            <img class="mb-10" src="./img/logo-small.svg" alt="logo small">
-            <div>
-                &copy;2018 DigitalOcean, LLC. All rights reserved. <br>
-                Proudly made in NY
+            <div class="row col-xs-12">
+                <img class="mb-10" src="./img/logo-small.svg" alt="logo small">
+                    &copy;2018 DigitalOcean, LLC. All rights reserved. <br>
+                    Proudly made in NY
+                    
+                <ul class="col-sm-6 list-inline py-20">
+                    <li>
+                        <i class="fab fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-youtube"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin"></i>
+                    </li>
+                </ul>
             </div>
 
-            <ul class="list-inline py-20">
-                <li>
-                    <i class="fab fa-twitter"></i>
-                </li>
-                <li>
-                    <i class="fab fa-facebook"></i>
-                </li>
-                <li>
-                    <i class="fab fa-instagram"></i>
-                </li>
-                <li>
-                    <i class="fab fa-youtube"></i>
-                </li>
-                <li>
-                    <i class="fab fa-linkedin"></i>
-                </li>
-            </ul>
-
-            <ul class="pt-10 px-0">
+            <ul class="col-sm-6 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Company
@@ -483,7 +504,7 @@
                 </li>
             </ul>
 
-            <ul class="pt-10 px-0">
+            <ul class="col-sm-6 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Products
@@ -524,7 +545,7 @@
                 </li>
             </ul>
 
-            <ul class="pt-10 px-0">
+            <ul class="col-sm-6 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Community
@@ -562,7 +583,7 @@
                 </li>
             </ul>
 
-            <ul class="pt-10 px-0">
+            <ul class="col-sm-6 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Support

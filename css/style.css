@@ -77,11 +77,6 @@ a{
     left: 10px;
 }
 
-.tos{
-    font-weight: 400;
-    line-height: 3;
-}
-
 /* logos section */
 .logos-section{
     background-color: #f3f5f9;
@@ -89,7 +84,7 @@ a{
 
 .logos-section img{
     max-height: 100px;
-    max-width: 150px;
+    max-width: 100%;
 }
 
 /* deploy and scale seamlessly */
