@@ -29,6 +29,10 @@ h6{
 }
 
 /* HEADER */
+header .container{
+    max-height: 80px;
+}
+
 .logo img{
     width: 200px;
 }
@@ -42,6 +46,22 @@ a{
     color: #2485fd;
 }
 
+/* navbar */
+.navbar{
+    display: none;
+}
+
+.navbar ul li a{
+    color: black;
+}
+
+.navbar ul li.signup a{
+    color: #2485fd;
+    padding: 10px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+}
+
 /* MAIN */
 /* jumbotron */
 .-jumbotron{
@@ -52,6 +72,10 @@ a{
 .-jumbotron .col-xs-12 > p{
     color:#bbcdff;
     font-weight: 500;
+}
+
+.-jumbotron p.sottotitolo{
+    color: #bbcafb;
 }
 
 /*jumbotron form */
@@ -83,8 +107,16 @@ a{
 }
 
 .logos-section img{
-    max-height: 100px;
+    height: 100px;
     max-width: 100%;
+    object-fit: contain;
+}
+
+.logos-section ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 /* deploy and scale seamlessly */
@@ -100,6 +132,14 @@ a{
 
 .slides img{
     max-width: 300px;
+}
+
+.slides i{
+    display: none;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
 }
 
 .slides .blue-circle{
@@ -120,13 +160,13 @@ a{
     background: linear-gradient(#0048c5, #001e99);
 }
 
-.-row{
+.table .row{
     border-bottom: 1px solid currentColor;
     line-height: 2.7;
 }
 
-.-row:nth-child(7),
-.-row:nth-child(13){
+.first-table .row:last-child,
+.second-table .row:last-child{
     border-bottom: none;
 }
 
@@ -141,6 +181,29 @@ a{
 /* slide section 2 */
 .slides .box{
     background-color: white;
+}
+
+.slides .box{
+    position: relative;
+}
+
+.slides .box i.fa-chevron-left,
+.slides .box i.fa-chevron-right{
+    display: none;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slides .box i.fa-chevron-left{
+    right: 100%;
+}
+
+.slides .box i.fa-chevron-right{
+    left: 105%;
 }
 
 /* get started */
@@ -159,4 +222,40 @@ footer a{
 
 footer i{
     font-size: 30px;
+}
+
+/* media query */
+@media screen and (min-width: 992px){
+    
+    h1{
+        font-size: 50px;
+    }
+
+    .hamburger{
+        display: none;
+    }
+    
+    .navbar{
+        display: block;
+    }
+
+    .slides img{
+        max-width: 600px;
+    }
+
+    .first-table, .second-table{
+        padding-right: 80px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .slides i{
+        display: inline-block;
+    }
+
+    .slides .box i.fa-chevron-right,
+    .slides .box i.fa-chevron-left{
+        display: inline-block;
+    }
 }

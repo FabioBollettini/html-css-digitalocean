@@ -23,8 +23,59 @@
     <header>
         <div class="container py-20">
                 <!-- logo -->
-            <div class="logo col-xs-6">
+            <div class="logo col-xs-6 col-md-3">
                 <img src="./img/do-logo.png" alt="logo">
+            </div>
+            <!-- navbar -->
+            <div class="navbar">
+                <ul class="list-inline col-md-5 pt-10">
+                    <li>
+                        <a href="#">
+                            Products
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Costumers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Community
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Pricing
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list-inline col-md-4 ta-right">
+                    <li>
+                        <a href="#">
+                            Docs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Support
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Login
+                        </a>
+                    </li>
+                    <li class="signup p-10">
+                        <a href="#">
+                            Sign Up
+                        </a>
+                    </li>
+                </ul>
             </div>
             <!-- hamburger -->
             <div class="hamburger col-xs-6 ta-right">
@@ -39,7 +90,7 @@
         <section class="-jumbotron white pt-50 pb-50">
             <div class="container">
                 <div class="col-xs-12">
-                    <div class="col-sm-7">
+                    <div class="col-sm-7 col-md-6">
                         <h1>
                             The simplest cloud platform for developers & teams
                         </h1>
@@ -47,10 +98,10 @@
                             Deploy, manage, and scale clod application faster and more efficiently on DigitalOcean.
                             We make managing infrastructure easy for teams and businesses, wheter you're running one virtual machine or ten thousand.
                         </p>
-                        
                     </div>
+
                     <!-- form -->
-                    <div class="form col-xs-12 col-sm-5 black ta-center">
+                    <div class="form col-xs-12 col-sm-5 col-md-5 col-md-offset-1 black ta-center">
                         <h3 class="pt-20 pb-10">Deploy your app in seconds. <br>
                             <a href="#">Get started now.</a> 
                         </h3>
@@ -176,7 +227,9 @@
             <div class="container ta-center">
                 <h2>Designed for developers</h2>
                 <p class="sottotitolo grey">Build more and spend less time managing your infrastructure with our easy-touse control panel and API.</p>
+                <i class="fas fa-chevron-left"></i>
                 <img class="mt-50" src="./img/create-droplet.jpg" alt="slide img">
+                <i class="fas fa-chevron-right"></i>
                 <h5 class="mt-20 mb-80">
                     Create compute server in 55 seconds or less.
                 </h5>
@@ -245,147 +298,153 @@
             <div class="container">
                 <h2 class="ta-center white pb-10">Service your customers around the world from 12 regions.</h2>
 
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        AMS2
+                <!-- first table -->
+                <div class="first-table col-xs-12 col-md-6 mt-40">
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            AMS2
+                        </div>
+                        <div class="region col-xs-7">
+                            Amsterdam, Netherlands
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="region col-xs-7 pl-20">
-                        Amsterdam, Netherlands
+                    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            AMS3
+                        </div>
+                        <div class="region col-xs-7">
+                            Amsterdam, Netherlands
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            BLR1
+                        </div>
+                        <div class="region col-xs-7">
+                            Bangalore, India
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        AMS3
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            FRA1
+                        </div>
+                        <div class="region col-xs-7">
+                            Frankfurt, German
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="region col-xs-7 pl-20">
-                        Amsterdam, Netherlands
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            LON1
+                        </div>
+                        <div class="region col-xs-7">
+                            London, UK
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        BLR1
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        Bangalore, India
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        FRA1
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        Frankfurt, German
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        LON1
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        London, UK
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-
-                <div class="-row col-xs-12 mb-20">
-                    <div class="col-xs-1 pl-0">
-                        NYC1
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        New York, USA
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-                
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        AMS2
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        Amsterdam, Netherlands
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            NYC1
+                        </div>
+                        <div class="region col-xs-7">
+                            New York, USA
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        AMS3
+                <!-- second table -->
+                <div class="second-table col-md-6 mt-40">
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            AMS2
+                        </div>
+                        <div class="region col-xs-7">
+                            Amsterdam, Netherlands
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="region col-xs-7 pl-20">
-                        Amsterdam, Netherlands
+                    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            AMS3
+                        </div>
+                        <div class="region col-xs-7">
+                            Amsterdam, Netherlands
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            BLR1
+                        </div>
+                        <div class="region col-xs-7">
+                            Bangalore, India
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        BLR1
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            FRA1
+                        </div>
+                        <div class="region col-xs-7">
+                            Frankfurt, German
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="region col-xs-7 pl-20">
-                        Bangalore, India
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            LON1
+                        </div>
+                        <div class="region col-xs-7">
+                            London, UK
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        FRA1
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        Frankfurt, German
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-
-                <div class="-row col-xs-12">
-                    <div class="col-xs-1 pl-0">
-                        LON1
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        London, UK
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
-                    </div>
-                </div>
-
-                <div class="-row col-xs-12 mb-20">
-                    <div class="col-xs-1 pl-0">
-                        NYC1
-                    </div>
-                    <div class="region col-xs-7 pl-20">
-                        New York, USA
-                    </div>
-                    <div class="test-speed col-xs-4">
-                        <a href="#">Test speed ></a>
+    
+                    <div class="row">
+                        <div class="col-xs-1 pl-0">
+                            NYC1
+                        </div>
+                        <div class="region col-xs-7">
+                            New York, USA
+                        </div>
+                        <div class="test-speed col-xs-4">
+                            <a href="#">Test speed ></a>
+                        </div>
                     </div>
                 </div>
 
@@ -397,7 +456,9 @@
             <div class="container ta-center">
                 <h2>Development teams love DigitalOcean</h2>
                 <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3   mt-50">
+                    <i class="fas fa-chevron-left"></i>
                     <img class="mt-50 mb-20" src="./img/rockerbox-logo.png" alt="slide img">
+                    <i class="fas fa-chevron-right"></i>
                     <p class="sottotitolo grey">
                         "We have been able to make scaling the technical infrastructure of our business cost effective and efficient."
                     </p>
@@ -442,12 +503,13 @@
     <!-- footer -->
     <footer class="py-50 grey">
         <div class="container">
-            <div class="row col-xs-12">
+            <div class="row col-xs-12 col-md-4">
                 <img class="mb-10" src="./img/logo-small.svg" alt="logo small">
-                    &copy;2018 DigitalOcean, LLC. All rights reserved. <br>
-                    Proudly made in NY
-                    
-                <ul class="col-sm-6 list-inline py-20">
+                <p>&copy;2018 DigitalOcean, LLC. All rights reserved. <br>
+                    Proudly made in NY</p>
+
+
+                <ul class="col-sm-6 col-md-12 list-inline py-20">
                     <li>
                         <i class="fab fa-twitter"></i>
                     </li>
@@ -466,7 +528,7 @@
                 </ul>
             </div>
 
-            <ul class="col-sm-6 pt-10 px-0">
+            <ul class="col-sm-6 col-md-2 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Company
@@ -504,7 +566,7 @@
                 </li>
             </ul>
 
-            <ul class="col-sm-6 pt-10 px-0">
+            <ul class="col-sm-6 col-md-2 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Products
@@ -545,7 +607,7 @@
                 </li>
             </ul>
 
-            <ul class="col-sm-6 pt-10 px-0">
+            <ul class="col-sm-6 col-md-2 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Community
@@ -583,7 +645,7 @@
                 </li>
             </ul>
 
-            <ul class="col-sm-6 pt-10 px-0">
+            <ul class="col-sm-6 col-md-2 pt-10 px-0">
                 <li>
                    <h4 class="white">
                        Support
